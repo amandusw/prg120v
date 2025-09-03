@@ -5,8 +5,15 @@
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* HTML og body fyller hele høyden */
+html, body {
+    height: 100%;
+}
+
+/* Body som flex container */
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     background-color: #f0f2f5;
     color: #333;
@@ -15,47 +22,35 @@ body {
 
 /* Header */
 header {
+    position: sticky;
+    top: 0;
     background: #1a73e8;
-    color: white;
-    padding: 15px 40px;
+    z-index: 1000;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-nav {
+/* Nav-container: sentrert meny */
+.nav-container {
     display: flex;
-    flex-direction: column;   /* Logo over menyen */
-    align-items: center;      /* Sentrerer alt */
-    gap: 10px;
+    justify-content: center; /* sentrerer menyen */
+    gap: 50px;               /* mellom Hjem, Om, Kontakt */
+    padding: 15px 0;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-}
-
-.nav-links a {
+.nav-container a {
     text-decoration: none;
     color: white;
     font-weight: 500;
     transition: color 0.3s;
 }
 
-.nav-links a:hover {
+.nav-container a:hover {
     color: #ffd700;
 }
 
-
-/* Main content */
+/* Main fyller resterende plass */
 main {
+    flex: 1;
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
@@ -89,7 +84,7 @@ em {
     color: #555;
 }
 
-/* Image */
+/* Bilder */
 img {
     max-width: 100%;
     display: block;
@@ -104,12 +99,11 @@ img:hover {
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
 }
 
-/* Footer */
+/* Footer alltid nederst */
 footer {
     background: #1a73e8;
     color: white;
     text-align: center;
     padding: 20px 10px;
-    margin-top: 40px;
     font-size: 0.9rem;
 }
