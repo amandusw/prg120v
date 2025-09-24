@@ -1,0 +1,11 @@
+function test5($tall1)
+  {
+    $tall2=$tall1;
+    return $tall2;
+  }
+
+  $tall1=3;
+$tall2=4;
+$tall2=test5($tall1);
+print("$tall2");
+
