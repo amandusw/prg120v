@@ -10,13 +10,15 @@
         <h1>Obligatorisk oppgave 2</h1>
         <nav aria-label="Hovedmeny">
             <ul>
-                <li><a href="index.html">Hjem</a></li>
-                <li><a href="gruppekontrakt.html">Gruppekontrakt</a></li>
-                <li><a href="html-css.html">HTML/CSS</a></li>
-                <li><a href="personas.html">Personas</a></li>
-                <li><a href="ia-wireframes.html">IA & Wireframes</a></li>
-                <li><a href="universell.html">Universell utforming</a></li>
-                <li><a href="brukerhistorier.html">Brukerhistorier</a></li>
+                <li><a href="regk.html">Registrer klasse</a></li>
+                <li><a href="visak.html">Vis alle klasser</a></li>
+                <li><a href="slettk.html">Slett klasse</a></li>
+             <h2>---------------------------------------------</h2>
+            </ul>
+            <ul>
+                <li><a href="regs.html">Registrer student</a></li>
+                <li><a href="visas.html">Vis alle studenter</a></li>
+                <li><a href="sletts.html">Slett student</a></li>
             </ul>
         </nav>
     </header>
