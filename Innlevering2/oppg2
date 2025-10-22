@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1>Studentprosjekt â€“ Gruppe: Vuk og Linus</h1>
+        <h1>Obligatorisk oppgave 2</h1>
         <nav aria-label="Hovedmeny">
             <ul>
                 <li><a href="index.html">Hjem</a></li>
@@ -21,9 +21,8 @@
         </nav>
     </header>
     <main>
-        <h2>Velkommen til vÃ¥rt prosjekt</h2>
-        <p>Denne nettsiden er laget som en del av gruppeoppgaven. 
-           Her finner du vÃ¥re ulike leveranser som egne undersider.</p>
+        <h2>---------------------------------------------</h2>
+        <p>TEst TESt TEST Test test.</p>
     </main>
     <footer>
         <p>Amandus</p>
